@@ -21,6 +21,24 @@ Install bootstrap
 Look carefully at differences between commits because Mashrur's instructions were not always followed.
 Also take note of the node version.
 
+### Working with credentials
+
+`> rails credentials:edit`
+
+then, define your editor:
+
+`$ EDITOR="code rails credentials:edit"`
+
+For rubymine, do
+
+`$ EDITOR="/Applications/RubyMine.app/Contents/MacOS/rubymine --wait" rails credentials:edit`
+
+You can return to the terminal once the file is edited, saved and closed.
+
+#### Resources: 
+
+[Post by Romil Mehta](https://blog.saeloun.com/2019/10/10/rails-6-adds-support-for-multi-environment-credentials.html)
+
 ### General Notes
 
 This README would normally document whatever steps are necessary to get the
