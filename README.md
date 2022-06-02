@@ -35,7 +35,11 @@ For rubymine, do
 
 You can return to the terminal once the file is edited, saved and closed.
 
-#### Resources: 
+### IEX Finance API
+
+[IEX Finance API](https://github.com/dblock/iex-ruby-client)
+
+### Resources: 
 
 [Post by Romil Mehta](https://blog.saeloun.com/2019/10/10/rails-6-adds-support-for-multi-environment-credentials.html)
 
