@@ -9,6 +9,7 @@ class StocksController < ApplicationController
     end
 
     @stock = Stock.new_lookup(params[:stock])
+
     if @stock.nil?
       respond_to do |format|
         flash.now[:alert] = "Enter a valid symbol to search"
