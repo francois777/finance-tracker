@@ -41,6 +41,8 @@ You can return to the terminal once the file is edited, saved and closed.
 
 ### Resources: 
 
+List of stocks: [https://www.nasdaq.com/market-activity/stocks/screener](List of stocks:) 
+
 [Post by Romil Mehta](https://blog.saeloun.com/2019/10/10/rails-6-adds-support-for-multi-environment-credentials.html)
 
 ### General Notes
