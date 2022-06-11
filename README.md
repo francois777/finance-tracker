@@ -35,13 +35,31 @@ For rubymine, do
 
 You can return to the terminal once the file is edited, saved and closed.
 
+### Deployment on Heroku
+
+To push `main` branch to heroku: `git push heroku`
+
+To create a Master Key on Heroku:
+`heroku config:set RAILS_MASTER_KEY="$(< config/master.key)"`
+
+Create Heroku database: `heroku run rails db:create`
+
+Do migrations: `heroku run rails db:migrate`
+
+To restart the server: `heroku ps:restart`
+
+To view Log files on Heroku: `heroku logs`
+
+Open the production website: `heroku open`
+
+
 ### IEX Finance API
 
-[IEX Finance API](https://github.com/dblock/iex-ruby-client)
+Follow this link: [IEX Finance API](https://github.com/dblock/iex-ruby-client)
 
-### Resources: 
+### Resources:
 
-List of stocks: [https://www.nasdaq.com/market-activity/stocks/screener](List of stocks:) 
+List of stocks: [https://www.nasdaq.com/market-activity/stocks/screener](List of stocks:)
 
 [Post by Romil Mehta](https://blog.saeloun.com/2019/10/10/rails-6-adds-support-for-multi-environment-credentials.html)
 
