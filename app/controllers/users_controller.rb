@@ -19,6 +19,7 @@ class UsersController < ApplicationController
       return
     end
     @users = User.find_by_partial(params[:part_name])
+    @users.reject! { | user| user == current_user }
 
     if @users.none?
       respond_to do |format|
