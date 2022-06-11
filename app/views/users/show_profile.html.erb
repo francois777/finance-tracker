@@ -24,7 +24,7 @@
               <td><%= stock.name %></td>
               <td><%= stock.last_price %></td>
               <td><%= link_to 'Add to my portfolio?', add_stock_of_a_friend_path(id: @user, ticker: stock.ticker),
-                                                       method: :post, class: "btn btn-success" %></td>
+                                                       method: :post, class: "btn btn-sm btn-success" %></td>
             </tr>
           <% end %>
         </tbody>
